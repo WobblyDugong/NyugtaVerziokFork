@@ -1,9 +1,5 @@
 package nyugtaprojektek;
-/* Probléma:
-tüntessük el a kézzel beírt szóközöket,
-a huf ne tartalmazzon eurót
-a kedvezmény helyett legyen szervízdíj, amit hozzá kell adni a végössdzeghez
-*/
+
 public class Nyugta3 {
     
     private static void kiiras(String mi,int szam,String HUF){
@@ -76,7 +72,7 @@ public class Nyugta3 {
         tetelek(tetel[0],tetel[1],tetel[2],HUF);
         System.out.println(duplaVonal);
         
-        /*összegzés*/
+        /*összeg*/
         int osszesen = osszegzes(tetel,HUF);
         System.out.println(szaggatottVonal);
         
@@ -99,6 +95,5 @@ public class Nyugta3 {
         
         /*záró csillagsorok*/
         csillagok("%11s\n","CÉG");
-        
     }
 }
